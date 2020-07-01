@@ -1,0 +1,47 @@
+@charset "shift_jis";
+/* ページ上部の余白 */
+*{
+	margin: 0px;
+    padding: 0px;
+}
+
+/*中央配置*/ /*画面配色*/
+body {
+	width:940px;
+	margin-right:auto;
+	margin-left:auto;
+	text-align:center;
+}
+
+/*画面配色*/
+body {
+	background: #487ca3;
+}
+header{
+	background: white;
+}
+
+/*footer{
+	background: white;
+}*/
+
+
+ul {
+  list-style: none;
+}
+
+button {
+	font-size:140%;
+	font-weight: 450;
+	margin-right:auto;
+	margin-left:auto;
+}
+.button li {
+	width: calc(100%/4);/*←画像を横に4つ並べる場合*/
+	padding:0 0px;/*←画像の左右に3pxの余白を入れる場合*/
+	box-sizing:border-box;
+	float:left;
+}
+li {
+	 margin : 20px;
+}

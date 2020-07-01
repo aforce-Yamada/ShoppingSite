@@ -1,0 +1,39 @@
+/* エラーメッセージの前に枠線が表示されてしまう(JSで動かせそう？)
+#error {
+	color: red;
+	/* 枠線
+	padding: 1em 1em;
+	font-weight: bold;
+	border: solid 1.5px red; /* 線
+	display:inline-block; /* 囲み枠幅調整
+	background: pink;
+	font-size:  93%;
+}
+
+.box p {
+    margin: 0;
+    padding: 0;
+}
+*/
+
+html {
+  width: 100%;  /* autoによる既定値 */
+}
+
+#error {
+	color: red;
+	background: pink;
+	font-size:  110%;
+	display:inline-block; /* 囲み枠幅調整 */
+}
+
+body {
+	width:940px;
+	margin-right:auto;
+	margin-left:auto;
+	text-align:center;
+}
+
+ul {
+  list-style: none;
+}
